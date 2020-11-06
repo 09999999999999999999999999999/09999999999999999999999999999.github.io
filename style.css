@@ -1,0 +1,33 @@
+/* Format for applying styling rules */
+p {
+  font-size: 20px;
+  font-family: Times New Roman, Georgia, serif;
+  
+}
+a {
+	font-size: 20px;
+	font-family: Times New Roman
+}
+
+h1 {
+	font-size: 30px;
+	font-family: Times New Roman
+}
+ul {
+  font-size: 20px;
+  font-family: Times New Roman
+  list-style-type: circle;
+}
+li {
+  list-style-type: circle;
+}
+
+/* Global Styles go here */
+body, html {
+  background: white;
+  color: black;
+  margin-left:1%;
+  margin-right:1%;
+  margin-bottom:1%;
+  margin-top:1%;
+}
