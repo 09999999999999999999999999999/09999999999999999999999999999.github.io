@@ -1,33 +1,23 @@
-/* Format for applying styling rules */
-p {
-  font-size: 20px;
-  font-family: Times New Roman, Georgia, serif;
-  
-}
-a {
-	font-size: 20px;
-	font-family: Times New Roman
+body {
+  display: grid;
+  grid-template-columns: minmax(150px, 25%) 1fr;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-	font-size: 30px;
-	font-family: Times New Roman
-}
-ul {
-  font-size: 20px;
-  font-family: Times New Roman
-  list-style-type: circle;
-}
-li {
-  list-style-type: circle;
+.sidebar {
+  height: 100vh;
+
+  //   etc.
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
 }
 
-/* Global Styles go here */
-body, html {
-  background: white;
-  color: black;
-  margin-left:1%;
-  margin-right:1%;
-  margin-bottom:1%;
-  margin-top:1%;
+.content {
+  padding: 2rem;
+}
+
+body {
+  font-family: system-ui, serif;
 }
