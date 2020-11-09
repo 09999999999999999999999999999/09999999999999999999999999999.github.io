@@ -3,6 +3,13 @@ body {
   grid-template-columns: minmax(150px, 25%) 1fr;
   padding: 0;
   margin: 0;
+  @font-face {
+    font-family: Timesnewarial; src: url('timesnewarial.ttf');
+  }
+  @font-face {
+    font-family: Timesnewarial; font-weight: regular; src: url(timesnewarial.ttf);
+  }
+  font-family: Timesnewarial, serif;
 }
 
 .sidebar {
@@ -10,20 +17,12 @@ body {
 
   //   etc.
   background: lightpink;
-  font-size: 2rem;
+  font-size: 10rem;
   text-align: center;
+  font-family: Timesnewarial, serif;
 }
 
 .content {
   padding: 2rem;
-}
-
-body {
-  @font-face {
-    font-family: Timesnewarial; src: url('timesnewarial.ttf');
-  }
-  @font-face {
-    font-family: Timesnewarial; font-weight: regular; src: url('timesnewarial.ttf');
-  }
   font-family: Timesnewarial, serif;
 }
