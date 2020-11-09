@@ -19,5 +19,11 @@ body {
 }
 
 body {
-  font-family: system-ui, serif;
+  @font-face {
+    font-family: Timesnewarial; src: url('timesnewarial.ttf');
+  }
+  @font-face {
+    font-family: Timesnewarial; font-weight: regular; src: url('timesnewarial.ttf');
+  }
+  font-family: Timesnewarial, serif;
 }
