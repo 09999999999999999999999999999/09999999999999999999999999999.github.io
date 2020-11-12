@@ -1,28 +1,35 @@
-body {
+.parent {
   display: grid;
-  grid-template-columns: minmax(150px, 25%) 1fr;
-  padding: 0;
-  margin: 0;
-  @font-face {
-    font-family: Timesnewarial; src: url('timesnewarial.ttf');
-  }
-  @font-face {
-    font-family: Timesnewarial; font-weight: regular; src: url(timesnewarial.ttf);
-  }
-  font-family: Timesnewarial, serif;
-}
+  place-items: center;
 
-.sidebar {
+  background: white;
+  width: 100vw;
+  max-width: 500px;
   height: 100vh;
 
-  //   etc.
-  background: lightpink;
-  font-size: 10rem;
-  text-align: center;
-  font-family: Timesnewarial, serif;
+  overflow: auto;
+  margin: auto;
 }
 
-.content {
-  padding: 2rem;
-  font-family: Timesnewarial, serif;
+.child {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  height: 100vh;
+  width: 45vw;
+  max-width: 500px;
+}
+
+p:hover {
+  font-style: normal;
+}
+
+#logo {
+  font-size: 4rem;
+  font-style: normal;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  font-style: italic;
 }
