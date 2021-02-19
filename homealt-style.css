@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: "Funkis-Normal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Funkis-Normal") format("opentype");
+}
+
+.funkis-normal-red-250px {
+  color: red;
+  font-family: "Funkis-Normal", Helvetica, Arial, serif;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 400;
+}
+.macbook-pro-1 {
+  background-color: black;
+  height: 9790px;
+  position: relative;
+  width: 1440px;
+}
+.macbook-pro-1 .bar-ism {
+  left: 538px;
+  letter-spacing: 0px;
+  line-height: 200px;
+  position: absolute;
+}
+.macbook-pro-1 .the-age-of-bar {
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 200px;
+  position: absolute;
+  top: 76px;
+  width: 1294px;
+}
+
+background-color: black;
