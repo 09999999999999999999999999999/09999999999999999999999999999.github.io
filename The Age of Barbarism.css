@@ -4,7 +4,7 @@ body {
 @font-face {
   font-family: Ferry Black;
   src: url(Ferry-Black.otf);
-  font-weight: 900;
+  font-weight: bolder;
 }
 @font-face {
   font-family: Parmigiano Text Pro;
@@ -13,14 +13,14 @@ body {
 }
 h1 {
   color: var(--red);
-  font-family: "Ferry-Black", Helvetica, Arial, serif;
+  font-family: "Ferry-Black", sans;
+  font-weight: bolder;
   font-size: 14vw;
   line-height: 11vw;
   margin-left: 15px;
   margin-right: 10px;
   margin-top: 0px;
   margin-bottom: 20px;
-  //min-width: 1500px;
   text-align: justify;
 }
 p {
