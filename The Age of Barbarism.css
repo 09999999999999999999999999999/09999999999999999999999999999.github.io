@@ -2,9 +2,9 @@ body {
   background-color: var(--bg);
 }
 @font-face {
-  font-family: Ferry Black;
+  font-family: Ferry;
   src: url(Ferry-Black.otf);
-  font-weight: bolder;
+  font-weight: bold;
 }
 @font-face {
   font-family: Parmigiano Text Pro;
@@ -13,8 +13,8 @@ body {
 }
 h1 {
   color: var(--red);
-  font-family: "Ferry-Black", sans;
-  font-weight: bolder;
+  font-family: "Ferry", sans-serif;
+  font-weight: bold;
   font-size: 14vw;
   line-height: 11vw;
   margin-left: 15px;
@@ -25,7 +25,7 @@ h1 {
 }
 p {
   display: inline-block;
-  font-family: "Parmigiano Text Pro", Serif;
+  font-family: "Parmigiano Text Pro", serif;
   font-weight: regular;
   color: black;
   font-size: 2vw;
