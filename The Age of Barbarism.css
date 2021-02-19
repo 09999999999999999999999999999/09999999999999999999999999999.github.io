@@ -39,6 +39,7 @@ p {
 }
 .column2 {
   display: inline-block;
+  margin-left: 10px;
 }
 //.mainpage {
   align-items: flex-end;
